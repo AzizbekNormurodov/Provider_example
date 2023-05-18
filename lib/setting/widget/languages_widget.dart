@@ -30,6 +30,7 @@ class LanguagesWidget extends StatelessWidget {
           flagName: 'ru',
           onTap: () {
             context.read<AppProvider>().setLocale("ru");
+            Navigator.pop(context);
           },
         ),
         const Divider(),
@@ -39,6 +40,7 @@ class LanguagesWidget extends StatelessWidget {
           flagName: 'en',
           onTap: () {
             context.read<AppProvider>().setLocale("en");
+            Navigator.pop(context);
           },
         ),
         const Divider(),
@@ -48,6 +50,7 @@ class LanguagesWidget extends StatelessWidget {
           flagName: 'uz',
           onTap: () {
             context.read<AppProvider>().setLocale("uz");
+            Navigator.pop(context);
           },
         ),
       ],
@@ -75,7 +78,7 @@ class LanguageItemWidget extends StatelessWidget {
       minLeadingWidth: 24,
       minVerticalPadding: 0,
       horizontalTitleGap: 12,
-      contentPadding: EdgeInsets.symmetric(horizontal: 12),
+      contentPadding: const EdgeInsets.symmetric(horizontal: 12),
       onTap: onTap,
       leading: SvgPicture.asset("assets/png/$flagName.svg"),
       title: Padding(

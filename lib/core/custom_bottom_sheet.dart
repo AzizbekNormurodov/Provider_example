@@ -40,7 +40,7 @@ Future<T?> customModalBottomSheet<T>({
                   width: 40,
                   height: 4,
                   decoration: BoxDecoration(color: Theme.of(context).cardColor,
-                    borderRadius: BorderRadius.all(Radius.circular(12),),
+                    borderRadius: const BorderRadius.all(Radius.circular(12),),
                   ),
                 ),
               ),
@@ -48,7 +48,7 @@ Future<T?> customModalBottomSheet<T>({
             Padding(
               padding: const EdgeInsets.only(top: 12),
               child: ClipRRect(
-                borderRadius: BorderRadius.all(Radius.circular(12),),
+                borderRadius: const BorderRadius.all(Radius.circular(12),),
                 child: Material(
                   child: isScrollControlled
                       ? DraggableScrollableSheet(

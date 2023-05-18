@@ -56,6 +56,12 @@
   "Select language": "Select language",
   "Russian": "Russian",
   "English": "English",
-  "Uzbek": "Uzbek"
+  "Uzbek": "Uzbek",
+  "Client ID": "Client ID",
+  "Additional phone number": "Additional phone number",
+  "Document Type": "Document Type",
+  "Series and passport number": "Series and passport number",
+  "Date of issue": "Date of issue",
+  "Issuing authority": "Issuing authority"
 
 }

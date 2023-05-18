@@ -26,6 +26,7 @@ class SubjectWidget extends StatelessWidget {
           text: "System",
           onTap: () {
             context.read<AppProvider>().setTheme(ThemeMode.system);
+            Navigator.pop(context);
           },
         ),
         const Divider(),
@@ -34,6 +35,7 @@ class SubjectWidget extends StatelessWidget {
           text: "Light",
           onTap: () {
             context.read<AppProvider>().setTheme(ThemeMode.light);
+            Navigator.pop(context);
           },
         ),
         const Divider(),
@@ -42,6 +44,7 @@ class SubjectWidget extends StatelessWidget {
           text: "Dark",
           onTap: () {
             context.read<AppProvider>().setTheme(ThemeMode.dark);
+            Navigator.pop(context);
           },
         ),
       ],

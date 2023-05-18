@@ -56,5 +56,11 @@
   "Select language": "Выбрать язык",
   "Russian": "Русский",
   "English": "Английский",
-  "Uzbek": "Узбекский"
+  "Uzbek": "Узбекский",
+  "Client ID": "ID клиента",
+  "Additional phone number": "Дополнительный номер телефона",
+  "Document Type": "Тип документа",
+  "Series and passport number": "Серия и номер паспорта",
+  "Date of issue": "Дата выдачи",
+  "Issuing authority": "Орган выдачи"
 }

@@ -10,9 +10,8 @@ class ThemeTextStyles {
     fontWeight: FontWeight.w600,
   );
   static const TextStyle text2 = TextStyle(
-    fontSize: 22,
-    fontWeight: FontWeight.w600,
-    color: Colors.black,
+    fontSize: 13,
+    fontWeight: FontWeight.w400,
   );
   static const TextStyle myorders = TextStyle(
     fontSize: 28,
@@ -59,7 +58,6 @@ class ThemeTextStyles {
   static const TextStyle inputname = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
-    color: Colors.black,
   );
   static const TextStyle widgettext =
       TextStyle(fontWeight: FontWeight.w400, fontSize: 13, color: Colors.black);

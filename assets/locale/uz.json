@@ -56,5 +56,11 @@
   "Select language": "Tilni tanlang",
   "Russian": "Rus",
   "English": "Ingliz",
-  "Uzbek": "O'zbek"
+  "Uzbek": "O'zbek",
+  "Client ID": "Mijoz identifikatori",
+  "Additional phone number": "Qo'shimcha telefon raqami",
+  "Document Type": "Hujjat turi",
+  "Series and passport number": "Seriya va pasport raqami",
+  "Date of issue": "Berilgan sana",
+  "Issuing authority": "Kim tomondan berilgan"
 }

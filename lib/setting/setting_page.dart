@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:prowider_example/core/custom_bottom_sheet.dart';
-import 'package:prowider_example/core/theme/theme_text_styles.dart';
 import 'package:prowider_example/setting/widget/languages_widget.dart';
 import 'package:prowider_example/setting/widget/subject_widget.dart';
 
@@ -26,7 +25,7 @@ class _SettingsPageState extends State<SettingsPage> {
         padding: const EdgeInsets.all(16),
         child: Material(
           elevation: 0,
-          borderRadius: BorderRadius.all(Radius.circular(12)),
+          borderRadius: const BorderRadius.all(Radius.circular(12)),
           color: Theme.of(context).cardColor,
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -35,7 +34,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 minLeadingWidth: 24,
                 minVerticalPadding: 0,
                 horizontalTitleGap: 12,
-                contentPadding: EdgeInsets.symmetric(horizontal: 12),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 12),
                 onTap: () {
                   customModalBottomSheet(
                     context: context,
@@ -61,11 +60,11 @@ class _SettingsPageState extends State<SettingsPage> {
                 minLeadingWidth: 24,
                 minVerticalPadding: 0,
                 horizontalTitleGap: 12,
-                contentPadding: EdgeInsets.symmetric(horizontal: 12),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 12),
                 onTap: () {
                   customModalBottomSheet(
                     context: context,
-                    builder: (context, controller) => SubjectWidget(),
+                    builder: (context, controller) => const SubjectWidget(),
                   );
                 },
                 leading: Icon(
@@ -87,7 +86,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 minLeadingWidth: 24,
                 minVerticalPadding: 0,
                 horizontalTitleGap: 12,
-                contentPadding: EdgeInsets.symmetric(horizontal: 12),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 12),
                 leading: Icon(
                   Icons.phone,
                   color: Theme.of(context).iconTheme.color,
@@ -107,7 +106,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 minLeadingWidth: 24,
                 minVerticalPadding: 0,
                 horizontalTitleGap: 12,
-                contentPadding: EdgeInsets.symmetric(horizontal: 12),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 12),
                 leading: Icon(
                   Icons.exit_to_app,
                   color: Theme.of(context).iconTheme.color,
